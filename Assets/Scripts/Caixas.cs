@@ -14,7 +14,8 @@ public class Caixas : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D c){
-		if (c.gameObject.CompareTag ("player")) {
+		if (c.gameObject.CompareTag ("azul") ||c.gameObject.CompareTag ("amarelo")
+		    ||c.gameObject.CompareTag ("vermelho")||c.gameObject.CompareTag ("verde")) {
 			Destroy(gameObject);
 
 			

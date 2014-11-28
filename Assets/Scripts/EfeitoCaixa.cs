@@ -8,9 +8,9 @@ public class EfeitoCaixa : MonoBehaviour {
 	private bool utilizarCaixa;
 	private Manager _manager ;
 	void Start(){
-		minhaTag = Component.tag;
+		//minhaTag = Component.tag;
 		utilizarCaixa = false;
-		_manager = (Manager) GameObject.FindWithTag("GamaManager").GetComponent("Manager");
+		//_manager = (Manager) GameObject.FindWithTag("GamaManager").GetComponent("Manager");
 }
 
 	void FixedUpdate(){
@@ -18,21 +18,21 @@ public class EfeitoCaixa : MonoBehaviour {
 			int posicao;
 			if (Input.GetKey("1")){
 				posicao =1;
-				_manager.EnviaEfeitoCaixa(posissao,tagCor);
+				//_manager.EnviaEfeitoCaixa(posissao,tagCor);
 			}
 			if (Input.GetKey("2")){
 				posicao =2;
-				_manager.EnviaEfeitoCaixa(posissao,tagCor);
+				//_manager.EnviaEfeitoCaixa(posissao,tagCor);
 
 			}
 			if (Input.GetKey("3")){
 				posicao =3;
-				_manager.EnviaEfeitoCaixa(posissao,tagCor);
+				//_manager.EnviaEfeitoCaixa(posissao,tagCor);
 
 			}
 			if (Input.GetKey("4")){
 				posicao =4;
-				_manager.EnviaEfeitoCaixa(posissao,tagCor);
+				//_manager.EnviaEfeitoCaixa(posissao,tagCor);
 			}
 
 		
