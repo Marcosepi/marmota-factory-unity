@@ -6,7 +6,7 @@ public class Movimentação : MonoBehaviour {
 	public float velocidade;
 	
 	void Start () {
-		velocidade = 0.001f;
+		velocidade = 0.003f;
 	}
 	
 	// Update is called once per frame
