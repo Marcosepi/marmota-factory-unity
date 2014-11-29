@@ -24,6 +24,7 @@ public class LancadorCaixas : MonoBehaviour {
 			Vector3 pos = transform.position;
 			pos.y = getRandomTrackPosition();
 			pos.x = 20f;
+			pos.z = -1f;
 			_item.transform.position = pos;
 			_item.transform.parent = transform;
 		}
@@ -33,6 +34,7 @@ public class LancadorCaixas : MonoBehaviour {
 			Vector3 pos = transform.position;
 			pos.y = getRandomTrackPosition();
 			pos.x = 20f;
+			pos.z = -1f;
 			_item.transform.position = pos;
 			_item.transform.parent = transform;
 		}
@@ -42,6 +44,7 @@ public class LancadorCaixas : MonoBehaviour {
 			Vector3 pos = transform.position;
 			pos.y = getRandomTrackPosition();
 			pos.x = 20f;
+			pos.z = -1f;
 			_item.transform.position = pos;
 			_item.transform.parent = transform;
 		}
@@ -51,6 +54,7 @@ public class LancadorCaixas : MonoBehaviour {
 			Vector3 pos = transform.position;
 			pos.y = getRandomTrackPosition();
 			pos.x = 20f;
+			pos.z = -1f;
 			_item.transform.position = pos;
 			_item.transform.parent = transform;
 		}
@@ -60,6 +64,7 @@ public class LancadorCaixas : MonoBehaviour {
 			Vector3 pos = transform.position;
 			pos.y = getRandomTrackPosition();
 			pos.x = 20f;
+			pos.z = -1f;
 			_item.transform.position = pos;
 			_item.transform.parent = transform;
 		}
@@ -69,6 +74,7 @@ public class LancadorCaixas : MonoBehaviour {
 			Vector3 pos = transform.position;
 			pos.y = getRandomTrackPosition();
 			pos.x = 20f;
+			pos.z = -1f;
 			_item.transform.position = pos;
 			_item.transform.parent = transform;
 		}
@@ -80,16 +86,16 @@ public class LancadorCaixas : MonoBehaviour {
 public float getRandomTrackPosition(){
 	int track = Random.Range(1,4);
 	if(track == 1){
-		return 3f;
+		return 2.8f;
 	}
 	if (track == 2){
-		return 0f;
+		return 0.8f;
 	}
 	if (track == 3){
-		return -3f;
+		return -1.3f;
 	}
 	if (track == 4) {
-		return -6f;
+		return -3.3f;
 	} else {
 		return 0;
 	}
